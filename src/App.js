@@ -48,6 +48,7 @@ function MyApp() {
             <Route path='/groups' exact element={<GroupData />}></Route>
             <Route path='/new_group' exact element={<NewGroup />}></Route>
             <Route path="*" element={<NotFound />}></Route>
+                // new route needed
           </Routes>
         </div>
       </div>
